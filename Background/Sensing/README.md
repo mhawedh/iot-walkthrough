@@ -22,7 +22,7 @@ On the dialog, choose a *Visual C# Class* and name it *WeatherStation*.
 
 ## Reading pressure data
 
-The will use the pressure data provided by the MPL3315A2. Following the datasheet, we must:
+This will use the pressure data provided by the MPL3315A2. Following the datasheet, we must:
 
 * Set the control register *CTRL_REG1* to an appropriate value depending on the desired measurement mode.
 * Read and convert the pressure.
